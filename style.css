@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.amma{
+    height: 100%;
+    width: 100%;
+    background: black;
+    color: white;
+    font-family: 'Oswald';
+}
+.amma:hover{
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 7vh;
+    align-items: center;
+    margin: 0 5%;
+}
+.header .left{
+    display: flex;   
+    align-items: center;
+
+}
+.header i{
+    margin: 0.8rem;
+}
+.header .right{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile img{
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    width: 94%;
+    margin:1% 3%;
+}
+.profile .post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post p{
+    font-size: 0.9rem;
+}
+.bio{
+    margin: 2% 3%;
+    font-size: 0.9rem;
+}
+.bio p{
+    font-weight: lighter;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 94%;
+    margin:5% 3%;
+    
+}
+.buttons :hover{
+    cursor: pointer;
+}
+button{
+    padding: 0.4rem 1.2rem;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+.raju button{
+   background-color: rgb(72, 72, 242);
+   color: white;
+}
+.highlets{
+   display: flex;
+   justify-content: space-around;
+}
+.highlets img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-bottom:0.7rem;
+    border: 3px solid gray;
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.story p{
+    font-size: 0.8rem;
+}
+.image{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.postsRaju{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: none;
+}
+.postsRaju img{
+    height: 100%;
+    width: 100%;
+}
+@media screen and (min-width:400px) {
+    body{
+        width: 400px;
+        background-color: white;
+    }
+    .amma{
+        border: 3px solid gray;
+    }
+}
